@@ -1,0 +1,13 @@
+<!-- Tic-Tac-Toe Game Board -->
+<h1>{{ winner ? winner + ' is the winner!' : 'Current player: ' + player }}</h1>  <!-- Display winner or current player -->
+
+<!-- New Game button to restart the game -->
+<button (click)="newGame()">Start new Game</button>
+
+<!-- Game grid: 3x3 grid of squares -->
+<main>
+  @for (val of squares; track $index) {
+    <!-- Each square emits squareClick event when clicked, which calls makeMove with the square's index -->
+    <app-square [value]="val" (squareClick)="makeMove($index)" />
+  }
+</main>
