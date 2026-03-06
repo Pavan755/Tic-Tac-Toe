@@ -1,4 +1,13 @@
-# TicTacToe
+# Tic-Tac-Toe
+
+A classic Tic-Tac-Toe game built with Angular 21. Play against another player and test your strategy!
+
+## Features
+
+- ✅ Two-player gameplay (X and O)
+- ✅ Winner detection (rows, columns, diagonals)
+- ✅ Game reset functionality
+- ✅ Clean, responsive UI with CSS Grid
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.0.
 
